@@ -1,0 +1,14 @@
+<div class="flex justify-center items-center h-screen">
+  <div class="w-full max-w-md p-6 bg-white rounded-lg shadow-lg">
+    <h1 class="text-center text-3xl font-semibold mb-4">Editing project</h1>
+
+<%= render "form", project: @project %>
+
+
+    <br>
+
+    <div class="text-center">
+      <%= link_to "Back to project", project_path(@project), class: "text-blue-500 hover:text-blue-600 font-semibold" %>
+    </div>
+  </div>
+</div>
